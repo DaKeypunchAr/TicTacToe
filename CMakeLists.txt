@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.6)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED true)
 
-project(TicTacToe VERSION 0.0.0 LANGUAGES CXX)
+project(TicTacToe VERSION 1.0.0 LANGUAGES CXX)
 
 add_executable(TicTacToe "src/Main.cpp" "src/TicTacToe/TicTacToe.cpp" "src/ShaderProgram/Program.cpp" "src/Texture/Texture.cpp" "src/TicTacToe/Players/Human.cpp" "src/TicTacToe/Board/Board.cpp" "src/UI/Button/Button.cpp" "src/TextRenderer/TextRenderer.cpp")
 
