@@ -499,7 +499,7 @@ namespace TTT
 	{
 		if (tag == "play")
 		{
-			if (buttonState == -1 && released == false)
+			if (buttonState == -1 && !released)
 				state = GameState::PLAY;
 		}
 	}
